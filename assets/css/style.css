@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    background: rgb(121, 121, 121);
+}
+
+#title {
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+#wrapper {
+    width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 3px solid #333;
+}
+
+#submit {
+    background: rgb(87, 87, 87);
+}
+
+#reset {
+    background: rgb(87, 87, 87);
+}
+
+#submit:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#reset:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#answer {
+    border: 1px dashed #ccc;
+    background: #eee;
+    padding: 10px;
+}
